@@ -93,6 +93,45 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 40659,
+						"minzippedBytes": 11065,
+						"time": 9.0987182,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 39653,
+						"minzippedBytes": 10937,
+						"time": 14.847018200000003,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 39673,
+						"minzippedBytes": 10932,
+						"time": 11.6166004,
+						"runs": 5
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -263,6 +302,45 @@
 						"minifiedBytes": 58275,
 						"minzippedBytes": 18899,
 						"time": 3994.4809594,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 97951,
+						"minzippedBytes": 25528,
+						"time": 14.0116032,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 95094,
+						"minzippedBytes": 25226,
+						"time": 32.317005,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 95099,
+						"minzippedBytes": 25225,
+						"time": 22.858348799999998,
 						"runs": 5
 					}
 				}
@@ -441,6 +519,45 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 144260,
+						"minzippedBytes": 41481,
+						"time": 17.7453326,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 142057,
+						"minzippedBytes": 41319,
+						"time": 48.722817400000004,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 142069,
+						"minzippedBytes": 41324,
+						"time": 32.1146386,
+						"runs": 5
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -615,6 +732,45 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 198365,
+						"minzippedBytes": 58198,
+						"time": 20.4462944,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 195054,
+						"minzippedBytes": 57823,
+						"time": 57.48161640000001,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 195087,
+						"minzippedBytes": 57824,
+						"time": 38.1435232,
+						"runs": 5
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -785,6 +941,45 @@
 						"minifiedBytes": 73491,
 						"minzippedBytes": 25028,
 						"time": 4283.0859872,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 148438,
+						"minzippedBytes": 36692,
+						"time": 25.5590134,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 140420,
+						"minzippedBytes": 36030,
+						"time": 52.1147592,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 140420,
+						"minzippedBytes": 36030,
+						"time": 40.236073,
 						"runs": 5
 					}
 				}
@@ -965,6 +1160,45 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 400627,
+						"minzippedBytes": 105921,
+						"time": 33.4279262,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 389385,
+						"minzippedBytes": 105386,
+						"time": 138.12383000000003,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 389399,
+						"minzippedBytes": 105393,
+						"time": 85.76581639999999,
+						"runs": 5
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -1136,6 +1370,45 @@
 						"minifiedBytes": 439925,
 						"minzippedBytes": 126444,
 						"time": 6041.5048206,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 640813,
+						"minzippedBytes": 146945,
+						"time": 50.139139400000005,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 632017,
+						"minzippedBytes": 146807,
+						"time": 141.44959820000003,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 632041,
+						"minzippedBytes": 146807,
+						"time": 92.0211718,
 						"runs": 5
 					}
 				}
@@ -1314,6 +1587,45 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 948919,
+						"minzippedBytes": 194098,
+						"time": 58.9416992,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 922945,
+						"minzippedBytes": 192408,
+						"time": 197.8255984,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 923007,
+						"minzippedBytes": 192422,
+						"time": 126.71522420000001,
+						"runs": 5
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -1487,6 +1799,43 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 1448095,
+						"minzippedBytes": 224558,
+						"time": 92.8985064,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:4472\ntickLabels:lodash_assign__WEBPACK_IMPORTED_MODULE_1___default()({},sharedProps,getTickLabelProps(e,d.labelStyle,anchors,tickValue:_,c)),\n                                                                                                                        ^^^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:4472\ntickLabels:lodash_assign__WEBPACK_IMPORTED_MODULE_1___default()({},sharedProps,getTickLabelProps(e,d.labelStyle,anchors,tickValue:_,c)),\n                                                                                                                        ^^^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -1657,6 +2006,43 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 1791302,
+						"minzippedBytes": 440795,
+						"time": 138.1730404,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:8423\nfunction createBackgroundEl($,_,a){var b=$.type==='polar'?Sector:Rect;return new b({shape:createBackgroundShape(_,layout:a,$),\n                                                                                                                  ^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:8423\nfunction createBackgroundEl($,_,a){var b=$.type==='polar'?Sector:Rect;return new b({shape:createBackgroundShape(_,layout:a,$),\n                                                                                                                  ^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -1824,6 +2210,43 @@
 					}
 				}
 			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 4457458,
+						"minzippedBytes": 630003,
+						"time": 231.8218738,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:2955\nelement:_this.renderInput(prefixCls,size:$,bordered,input),\n                                    ^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:2955\nelement:_this.renderInput(prefixCls,size:$,bordered,input),\n                                    ^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
 			"oxc-minify": {
 				"minifierPath": "oxc-minify.ts",
 				"version": "0.141.0",
@@ -1986,6 +2409,43 @@
 				"result": {
 					"error": {
 						"message": "timeout"
+					}
+				}
+			},
+			"Minify++": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"data": {
+						"minifiedBytes": 5911587,
+						"minzippedBytes": 1141026,
+						"time": 369.37499599999995,
+						"runs": 5
+					}
+				}
+			},
+			"Minify++ (aggressive)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:35104\nvar TransformationState;(function($){$[$[\"Uninitialized\"]=0]=\"Uninitialized\";$[$[\"Initialized\"]=1]=\"Initialized\";$[$[\"Completed\"]=2]=\"Completed\";$[$[\"Disposed\"]=3]=\"Disposed\"})(TransformationState||(TransformationState={}));var SyntaxKindFeatureFlags;(function($){$[$[\"Substitution\"]=1]=\"Substitution\";$[$[\"EmitNotifications\"]=2]=\"EmitNotifications\"})(SyntaxKindFeatureFlags||(SyntaxKindFeatureFlags={}));ts.noTransformers={scriptTransformers:ts.emptyArray,declarationTransformers:ts.emptyArray};function getTransformers($,_,a){return{scriptTransformers:getScriptTransformers($,customTransformers:_,a),\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
+					}
+				}
+			},
+			"Minify++ (structured)": {
+				"minifierPath": "minifypp.ts",
+				"version": "1.1.3-dev.ec01a1e",
+				"configHash": "fee412ffbb",
+				"result": {
+					"error": {
+						"message": "missing ) after argument list",
+						"stack": "fs-require://2/index.js:35104\nvar TransformationState;(function($){$[$[\"Uninitialized\"]=0]=\"Uninitialized\";$[$[\"Initialized\"]=1]=\"Initialized\";$[$[\"Completed\"]=2]=\"Completed\";$[$[\"Disposed\"]=3]=\"Disposed\"})(TransformationState||(TransformationState={}));var SyntaxKindFeatureFlags;(function($){$[$[\"Substitution\"]=1]=\"Substitution\";$[$[\"EmitNotifications\"]=2]=\"EmitNotifications\"})(SyntaxKindFeatureFlags||(SyntaxKindFeatureFlags={}));ts.noTransformers={scriptTransformers:ts.emptyArray,declarationTransformers:ts.emptyArray};function getTransformers($,_,a){return{scriptTransformers:getScriptTransformers($,customTransformers:_,a),\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"stage": "post-validation"
 					}
 				}
 			},
