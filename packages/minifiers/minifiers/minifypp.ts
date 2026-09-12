@@ -29,7 +29,7 @@ export default createMinifier(
 	},
 	{
 		name: 'Minify++',
-		version: '1.1.3-dev.ec01a1e',
+		version: process.env.MINIFYPP_VERSION ?? 'local-main',
 		url: 'https://github.com/minify-cx/minify',
 		registry: 'github',
 	},

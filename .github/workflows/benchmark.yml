@@ -10,9 +10,6 @@ on:
 permissions:
   contents: write
 
-env:
-  MINIFYPP_REF: 37ffc67952254d49d97ca0effcb82154bad41e62
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,9 +28,16 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: minify-cx/minify
-          ref: ${{ env.MINIFYPP_REF }}
+          ref: main
           path: .benchmark-dependencies/minifypp
           persist-credentials: false
+
+      - name: Identify Minify++ revision
+        id: minifypp-revision
+        run: |
+          revision="$(git -C .benchmark-dependencies/minifypp rev-parse HEAD)"
+          echo "sha=$revision" >> "$GITHUB_OUTPUT"
+          echo "MINIFYPP_VERSION=main.${revision:0:7}" >> "$GITHUB_ENV"
 
       - name: Build Minify++ benchmark adapter
         run: packages/minifiers/native/build-minifypp.sh
@@ -77,7 +81,10 @@ jobs:
         uses: actions/cache/restore@v6
         with:
           path: packages/data/data/data.json
-          key: benchmark-${{ env.MINIFYPP_REF }}-${{ hashFiles('pnpm-lock.yaml', 'packages/minifiers/composer.lock', 'packages/data/data/data.json', 'packages/minifiers/minifiers/minifypp.ts', 'packages/minifiers/native/minifypp-driver.cpp', 'packages/minifiers/native/build-minifypp.sh') }}
+          key: benchmark-${{ steps.minifypp-revision.outputs.sha }}-${{ hashFiles('pnpm-lock.yaml', 'packages/minifiers/composer.lock', 'packages/data/data/data.json', 'packages/minifiers/minifiers/minifypp.ts', 'packages/minifiers/native/minifypp-driver.cpp', 'packages/minifiers/native/build-minifypp.sh') }}
+
+      - name: Refresh Minify++ results
+        run: node packages/data/refresh-minifypp-results.mjs
 
       - name: Benchmark
         run: pnpm bench-all
@@ -91,25 +98,17 @@ jobs:
           path: packages/data/data/data.json
           key: ${{ steps.benchmark-cache.outputs.cache-primary-key }}
 
-      - name: Commit benchmark results
-        run: |
-          # Ignored by Renovate
-          git add packages/data/data/data.json
-          if ! git diff --cached --quiet; then
-            # [skip ci] so the generated commits don't trigger approval-required runs
-            git commit -nm "chore: update benchmark results [skip ci]"
-            git push
-          fi
-
       - name: Update README
         run: pnpm update-readme
         env:
           PRESERVE_AI_ANALYSIS: "1"
 
-      - name: Commit benchmark report
+      - name: Commit benchmark results and report
         run: |
-          git add README.md
+          # Ignored by Renovate
+          git add packages/data/data/data.json README.md
           if ! git diff --cached --quiet; then
-            git commit -nm "docs: update benchmark report [skip ci]"
+            # [skip ci] prevents the generated commit from benchmarking itself.
+            git commit -nm "chore: update benchmark results and report [skip ci]"
             git push
           fi
