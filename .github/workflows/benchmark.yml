@@ -1,6 +1,8 @@
 name: Benchmark
 
 on:
+  push:
+    branches: [master]
   pull_request:
     branches: [master]
   workflow_dispatch:
@@ -9,7 +11,7 @@ permissions:
   contents: write
 
 env:
-  MINIFYPP_REF: ec01a1ea61271a8663be9f48f3322ca68a3395b8
+  MINIFYPP_REF: 37ffc67952254d49d97ca0effcb82154bad41e62
 
 jobs:
   build:
@@ -22,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
           repository: ${{ github.repository }}
 
       - name: Checkout Minify++
