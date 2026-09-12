@@ -134,10 +134,13 @@ const generateBenchmarks = (
 const minifiers = await getMinifiers();
 
 const analyzedData = getAnalyzedData();
-const ai = await getAiAnalysis(
-	minifiers,
-	analyzedData,
-);
+const preserveAiAnalysis = process.env.PRESERVE_AI_ANALYSIS === '1';
+const ai = preserveAiAnalysis
+	? undefined
+	: await getAiAnalysis(
+		minifiers,
+		analyzedData,
+	);
 
 const readmePath = './README.md';
 const readme = await fs.readFile(readmePath, 'utf8');
@@ -178,8 +181,14 @@ const newReadme = commentMark(readme, {
 	lastUpdated: format(utcToday, 'MMM d, y'),
 	benchmarks: generateBenchmarks(analyzedData),
 	minifiers: minifiersList,
-	aiSystemPrompt: escapeHtml(ai?.systemPrompt),
-	aiAnalysis: ai?.analysis,
+	...(
+		preserveAiAnalysis
+			? {}
+			: {
+				aiSystemPrompt: escapeHtml(ai?.systemPrompt),
+				aiAnalysis: ai?.analysis,
+			}
+	),
 });
 
 await fs.writeFile(readmePath, newReadme);

@@ -2,6 +2,15 @@
 
 ## Commands
 ### Get the benchmarks for a file given a minfier
+
+Minify++ is built automatically by the benchmark workflow. Before benchmarking
+it locally, check out the pinned source and build its adapter:
+
+```sh
+git clone --depth 1 --branch v1.1.2 https://github.com/minify-cx/minify.git .benchmark-dependencies/minifypp
+packages/minifiers/native/build-minifypp.sh
+```
+
 ```sh
 $ pnpm bench --minifier <minifier> --artifact <artifact>
 ```

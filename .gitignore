@@ -25,6 +25,9 @@ vendor/
 # Minification results
 results
 
+# Native benchmark dependencies and binaries
+/.benchmark-dependencies/
+
 # Cache
 .eslintcache
 

@@ -15,7 +15,7 @@ export type MetaData = {
 	version: string;
 	url: string;
 	publishDate?: Date;
-	registry: 'npm' | 'composer';
+	registry: 'npm' | 'composer' | 'github';
 };
 
 export class Minifier {
@@ -32,9 +32,11 @@ export class Minifier {
 	constructor(
 		name: string,
 		instances: Instances,
+		meta?: MetaData,
 	) {
 		this.name = name;
 		this.instances = instances;
+		this.meta = meta;
 	}
 
 	async loadMeta(
@@ -43,6 +45,9 @@ export class Minifier {
 	) {
 		this.minifierPath = minifierPath;
 		this.configHash = configHash;
+		if (this.meta) {
+			return;
+		}
 
 		const packageJson = await loadPackageJson(this.name);
 		if (packageJson) {
@@ -75,4 +80,5 @@ export type MinifierLoaded = {
 export const createMinifier = (
 	minifierName: string,
 	instances: Instances,
-) => new Minifier(minifierName, instances);
+	meta?: MetaData,
+) => new Minifier(minifierName, instances, meta);
