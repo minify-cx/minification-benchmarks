@@ -95,39 +95,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 40659,
 						"minzippedBytes": 11065,
-						"time": 8.982719,
+						"time": 8.8235846,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 25158,
-						"minzippedBytes": 8925,
-						"time": 51.1981006,
+						"minifiedBytes": 25183,
+						"minzippedBytes": 8928,
+						"time": 51.8231372,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 25875,
 						"minzippedBytes": 8990,
-						"time": 14.5392204,
+						"time": 15.581100400000002,
 						"runs": 5
 					}
 				}
@@ -308,39 +308,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 97951,
 						"minzippedBytes": 25528,
-						"time": 13.503390200000002,
+						"time": 13.789893999999999,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 63660,
-						"minzippedBytes": 20758,
-						"time": 114.502586,
+						"minifiedBytes": 63724,
+						"minzippedBytes": 20728,
+						"time": 99.65536119999999,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 64613,
 						"minzippedBytes": 20840,
-						"time": 36.3630238,
+						"time": 37.4686484,
 						"runs": 5
 					}
 				}
@@ -521,39 +521,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 144254,
 						"minzippedBytes": 41476,
-						"time": 15.9993132,
+						"time": 16.489324,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 96614,
-						"minzippedBytes": 33569,
-						"time": 256.5712888,
+						"minifiedBytes": 96712,
+						"minzippedBytes": 33538,
+						"time": 255.5673486,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 98245,
 						"minzippedBytes": 33765,
-						"time": 48.6623026,
+						"time": 49.854046,
 						"runs": 5
 					}
 				}
@@ -734,39 +734,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 198365,
 						"minzippedBytes": 58198,
-						"time": 18.3473772,
+						"time": 18.9855138,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 126602,
-						"minzippedBytes": 46593,
-						"time": 334.71367,
+						"minifiedBytes": 126726,
+						"minzippedBytes": 46573,
+						"time": 335.68073919999995,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 130856,
 						"minzippedBytes": 46959,
-						"time": 71.46247179999999,
+						"time": 69.3192134,
 						"runs": 5
 					}
 				}
@@ -947,39 +947,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 148438,
 						"minzippedBytes": 36692,
-						"time": 23.478060399999997,
+						"time": 25.1111266,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 76244,
-						"minzippedBytes": 27447,
-						"time": 270.11364219999996,
+						"minifiedBytes": 76289,
+						"minzippedBytes": 27434,
+						"time": 277.68000219999993,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 78033,
 						"minzippedBytes": 27625,
-						"time": 67.3327764,
+						"time": 69.7851752,
 						"runs": 5
 					}
 				}
@@ -1162,20 +1162,20 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 400431,
 						"minzippedBytes": 105880,
-						"time": 29.9133736,
+						"time": 30.6819944,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"error": {
@@ -1187,7 +1187,7 @@
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"error": {
@@ -1374,39 +1374,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 640812,
 						"minzippedBytes": 146944,
-						"time": 45.8932944,
+						"time": 46.621227399999995,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 505569,
-						"minzippedBytes": 130800,
-						"time": 835.7449234,
+						"minifiedBytes": 505915,
+						"minzippedBytes": 130704,
+						"time": 836.0304944,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 510340,
 						"minzippedBytes": 131236,
-						"time": 149.7550132,
+						"time": 152.613294,
 						"runs": 5
 					}
 				}
@@ -1587,38 +1587,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 948692,
 						"minzippedBytes": 194054,
-						"time": 54.59462920000001,
+						"time": 54.8344704,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
-					"error": {
-						"message": "Invalid left-hand side in assignment",
-						"stack": "fs-require://2/index.js:1959\n}}}}catch(error){console.error('THREE.WebGLRenderer: '+error.message);throw error}var t,s,d,eL,c,P,N,Q,eb,em,T,ey,ee,K,A,W,eT,eh,B,ed,o;function e_(){t=new dY(m);s=new uA(m,t,a);if(s.isWebGL2===!1)t.get('WEBGL_depth_texture'),t.get('OES_texture_float'),t.get('OES_texture_half_float'),t.get('OES_texture_half_float_linear'),t.get('OES_standard_derivatives'),t.get('OES_element_index_uint'),t.get('OES_vertex_array_object'),t.get('ANGLE_instanced_arrays');t.get('OES_texture_float_linear');ed=new pP(m,t,s);d=new fG(m,t,s);d.scissor(R.copy(et).multiplyScalar(u).floor());d.viewport(f.copy(z).multiplyScalar(u).floor());eL=new gn(m);c=new pn();P=new h4(m,t,d,c,s,ed,eL);N=new hD(h);Q=new dG(m,s);o=new cX(m,t,Q,s);eb=new dZ(m,Q,eL,o);em=new md(m,eb,Q,eL);eT=new uL(m);A=new hj(c);T=new hU(h,N,t,s,o,A);ey=new pQ(c);ee=new dm(c);K=new uP(t,s);W=new d$(h,N,d,em,X);eh=new co(m,t,eL,s);B=new n$(m,t,eL,s);eL.programs=T.programs;h.capabilities=s;h.extensions=t;h.properties=c;h.renderLists=ee;h.state=d;h.info=eL}e_();var xr=new ui(h,m);this.xr=xr;var eG=new lR(h,em,s.maxTextureSize);this.shadowMap=eG;this.getContext=function(){return m};this.getContextAttributes=function(){return m.getContextAttributes()};this.forceContextLoss=function(){var $=t.get('WEBGL_lose_context');if($)$.loseContext()};this.forceContextRestore=function(){var $=t.get('WEBGL_lose_context');if($)$.restoreContext()};this.getPixelRatio=function(){return u};this.setPixelRatio=function($){if($===void 0)return;u=$;this.setSize(ef,Y,!1)};this.getSize=function($){if($===void 0)console.warn('WebGLRenderer: .getsize() now requires a Vector2 as an argument'),$=new E();return $.set(ef,Y)};this.setSize=function($,_,a){if(xr.isPresenting){console.warn(\"THREE.WebGLRenderer: Can't change size while VR device is presenting.\");return}ef=$;Y=_;M.width=Math.floor($*u);M.height=Math.floor(_*u);if(a!==!1)M.style.width=$+'px',M.style.height=_+'px';this.setViewport(0,0,$,_)};this.getDrawingBufferSize=function($){if($===void 0)console.warn('WebGLRenderer: .getdrawingBufferSize() now requires a Vector2 as an argument'),$=new E();return $.set(ef*u,Y*u).floor()};this.setDrawingBufferSize=function($,_,a){ef=$;Y=_;u=a;M.width=Math.floor($*a);M.height=Math.floor(_*a);this.setViewport(0,0,$,_)};this.getCurrentViewport=function($){if($===void 0)console.warn('WebGLRenderer: .getCurrentViewport() now requires a Vector4 as an argument'),$=new ev();return $.copy(f)};this.getViewport=function($){return $.copy(z)};this.setViewport=function(x,y,$,_){if(x.isVector4){z.set(x.x,x.y,x.z,x.w)}else{z.set(x,y,$,_)}d.viewport(f.copy(z).multiplyScalar(u).floor())};this.getScissor=function($){return $.copy(et)};this.setScissor=function(x,y,$,_){if(x.isVector4){et.set(x.x,x.y,x.z,x.w)}else{et.set(x,y,$,_)}d.scissor(R.copy(et).multiplyScalar(u).floor())};this.getScissorTest=function(){return el};this.setScissorTest=function($){d.setScissorTest(el=$)};this.setOpaqueSort=function($){eA=$};this.setTransparentSort=function($){ei=$};this.getClearColor=function($){if($===void 0)console.warn('WebGLRenderer: .getClearColor() now requires a Color as an argument'),$=new H();return $.copy(W.getClearColor())};this.setClearColor=function(){W.setClearColor.apply(W,arguments)};this.getClearAlpha=function(){return W.getClearAlpha()};this.setClearAlpha=function(){W.setClearAlpha.apply(W,arguments)};this.clear=function(_,a,b){if(_===void 0||_)0|=16384;if(a===void 0||a)0|=256;if(b===void 0||b)0|=1024;m.clear(0)};this.clearColor=function(){this.clear(!0,!1,!1)};this.clearDepth=function(){this.clear(!1,!0,!1)};this.clearStencil=function(){this.clear(!1,!1,!0)};this.dispose=function(){M.removeEventListener('webglcontextlost',ex,!1);M.removeEventListener('webglcontextrestored',en,!1);ee.dispose();K.dispose();c.dispose();N.dispose();em.dispose();o.dispose();xr.dispose();ea.stop()};function ex($){$.preventDefault();console.log('THREE.WebGLRenderer: Context Lost.');Z=!0}function en()\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \n\nSyntaxError: Invalid left-hand side in assignment\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
-						"stage": "post-validation"
+					"data": {
+						"minifiedBytes": 671935,
+						"minzippedBytes": 166949,
+						"time": 1205.6185228,
+						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 685317,
 						"minzippedBytes": 168053,
-						"time": 224.5355736,
+						"time": 227.9736016,
 						"runs": 5
 					}
 				}
@@ -1798,39 +1799,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 1445516,
 						"minzippedBytes": 224431,
-						"time": 84.626001,
+						"time": 88.07888299999999,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 763666,
-						"minzippedBytes": 175498,
-						"time": 1517.1746748,
+						"minifiedBytes": 763801,
+						"minzippedBytes": 175510,
+						"time": 1517.2424894,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 782443,
 						"minzippedBytes": 177016,
-						"time": 280.15608499999996,
+						"time": 286.7044132,
 						"runs": 5
 					}
 				}
@@ -2007,32 +2008,32 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 1791062,
 						"minzippedBytes": 440720,
-						"time": 130.7301704,
+						"time": 134.431937,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"error": {
-						"message": "Invalid left-hand side in assignment",
-						"stack": "fs-require://2/index.js:496\n||(b.force&&!p.length)){var j=g.animators,f=[];for(var i=0;i<j.length;i++){if(j[i].targetName===e){f.push(j[i])}}if(!v&&f.length){for(var i=0;i<f.length;i++){var y=f[i].stopTracks(q);if(y){var z=eb(j,f[i]);j.splice(z,1)}}}var n=void 0,s=void 0,o=void 0;if(h){s={};if(m){n={}}for(var i=0;i<r;i++){var $=c[i];s[$]=a[$];if(m){n[$]=_[$]}else{a[$]=_[$]}}}else if(m){o={};for(var i=0;i<r;i++){var $=c[i];o[$]=uN(a[$]);GR(a,_,$)}}var d=new D2(a,!1,v?f:null);d.targetName=e;if(b.scope){d.scope=b.scope}if(m&&n){d.whenWithKeys(0,n,c)}if(o){d.whenWithKeys(0,o,c)}d.whenWithKeys(u==null?500:u,h?s:_,c).delay(w||0);g.addAnimator(d,e);p.push(d)}}var fg=32,aC=7;function RQ(n){while(n>=fg)0|=n&1,n>>=1;return n+0}function g8(_,a,b,c){var $=a+1;if($===b){return 1}if(c(_[$++],_[a])<0){while($<b&&c(_[$],_[$ - 1])<0){$++}Ba(_,a,$)}else{while($<b&&c(_[$],_[$ - 1])>=0){$++}}return $ - a}function Ba($,a,_){_--;while(a<_){var t=$[a];$[a++]=$[_];$[_--]=t}}function u2(_,d,f,a,g){if(a===d){a++}for(;a<f;a++){var e=_[a],$=d,c=a,b;while($<c){b=$+c>>>1;if(g(e,_[b])<0){c=b}else{$=b+1}}var n=a - $;switch(n){case 3:\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^\n\nSyntaxError: Invalid left-hand side in assignment\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
+						"message": "v3 is not a function",
+						"stack": "TypeError: v3 is not a function\n    at Object.registerPainter (fs-require://2/index.js:2489:31)\n    at Object.Fh [as install] (fs-require://2/index.js:2971:51)\n    at ro (fs-require://2/index.js:2491:5)\n    at fs-require://2/index.js:2490:43\n    at Array.forEach (<anonymous>)\n    at P (fs-require://2/index.js:42:1256)\n    at ro (fs-require://2/index.js:2490:27)\n    at fs-require://2/index.js:8671:208\n    at fs-require://2/index.js:1:138\n    at fs-require://2/index.js:3:87",
 						"stage": "post-validation"
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"error": {
@@ -2211,39 +2212,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 4457395,
 						"minzippedBytes": 629981,
-						"time": 271.29405499999996,
+						"time": 230.9879916,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
-						"minifiedBytes": 2433483,
-						"minzippedBytes": 494638,
-						"time": 3794.6476113999997,
+						"minifiedBytes": 2433842,
+						"minzippedBytes": 494639,
+						"time": 3822.420066,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 2489847,
 						"minzippedBytes": 497975,
-						"time": 660.7892542,
+						"time": 670.7613444000001,
 						"runs": 5
 					}
 				}
@@ -2415,38 +2416,39 @@
 			},
 			"Minify++": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 5911581,
 						"minzippedBytes": 1141021,
-						"time": 358.07121320000005,
+						"time": 362.06939759999995,
 						"runs": 5
 					}
 				}
 			},
 			"Minify++ (aggressive)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
-					"error": {
-						"message": "Invalid left-hand side in assignment",
-						"stack": "fs-require://2/index.js:3885\nif($.asteriskToken){0|=1}case 216:\n                    ^\n\nSyntaxError: Invalid left-hand side in assignment\n    at new Script (node:vm:117:7)\n    at createScript (node:vm:269:10)\n    at Object.runInThisContext (node:vm:317:10)\n    at p. (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1165)\n    at s (file:///node_modules/.pnpm/fs-require@1.6.0/node_modules/fs-require/dist/index.mjs:1:1657)\n    at requireString (file:///packages/artifacts/utils/require-string.ts:9:9)\n    at Artifact.validate (file:///packages/artifacts/utils/artifact.ts:116:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///packages/bench/benchmark/cli.ts:98:2",
-						"stage": "post-validation"
+					"data": {
+						"minifiedBytes": 3617619,
+						"minzippedBytes": 910870,
+						"time": 8071.2804024,
+						"runs": 5
 					}
 				}
 			},
 			"Minify++ (structured)": {
 				"minifierPath": "minifypp.ts",
-				"version": "main.795971e",
+				"version": "main.4aae345",
 				"configHash": "f9a065fa99",
 				"result": {
 					"data": {
 						"minifiedBytes": 3697426,
 						"minzippedBytes": 918097,
-						"time": 1275.9350072,
+						"time": 1282.8916709999999,
 						"runs": 5
 					}
 				}
