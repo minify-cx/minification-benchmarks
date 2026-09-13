@@ -48,6 +48,7 @@ _Benchmarks last updated on <!-- lastUpdated:start -->Sep 13, 2026<!-- lastUpdat
 - Each minifier is minimally configured (sourcemaps & comments disabled), comparing out-of-the-box experience
 - Minifier upgrade PRs are automated via [WhiteSource Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/)
 - Benchmarks are updated on every PR via [GitHub Actions](https://github.com/privatenumber/minification-benchmarks/actions/workflows/benchmark.yml)
+- Minify++ refresh runs also re-measure oxc-minify, @swc/core, esbuild, and Terser as same-run performance controls; unchanged competitors may otherwise retain cached historical timings
 - The raw benchmark data is available in [`/packages/data/data/data.json`](/packages/data/data/data.json)
 
 
