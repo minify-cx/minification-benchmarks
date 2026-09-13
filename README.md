@@ -23,7 +23,7 @@ This project benchmarks the following minifiers:
 | [uglify-js](https://github.com/mishoo/UglifyJS) | [3.19.3](https://www.npmjs.com/package/uglify-js/v/3.19.3) | 2024-08-29 |
 | [babel-minify](https://github.com/babel/minify/tree/master/packages/babel-minify) | [0.5.2](https://www.npmjs.com/package/babel-minify/v/0.5.2) | 2022-05-06 |
 | [tedivm/jshrink](https://github.com/tedious/JShrink) | 1.8.1 |  |
-| [Minify++](https://github.com/minify-cx/minify) | main.4aae345 |  |
+| [Minify++](https://github.com/minify-cx/minify) | main.2bffd10 |  |
 <!-- minifiers:end -->
 
 _Benchmarks last updated on <!-- lastUpdated:start -->Sep 13, 2026<!-- lastUpdated:end -->._
@@ -104,8 +104,8 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-67% </sup>`23.98 KB` | <sup>-55% </sup>`8.66 KB` | <sup>*5x* </sup>`15 ms` |
 | 8. [uglify-js (no compress)](packages/minifiers/minifiers/uglify-js.ts) | <sup>-65% </sup>`25.03 KB` | <sup>-55% </sup>`8.67 KB` | <sup>*27x* </sup>`75 ms` |
 | 9. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-65% </sup>`25.06 KB` | <sup>-55% </sup>`8.74 KB` | <sup>*30x* </sup>`84 ms` |
-| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-65% </sup>`25.18 KB` | <sup>-54% </sup>`8.93 KB` | <sup>*18x* </sup>`52 ms` |
-| 11. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`25.88 KB` | <sup>-54% </sup>`8.99 KB` | <sup>*5x* </sup>`16 ms` |
+| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-65% </sup>`25.18 KB` | <sup>-54% </sup>`8.93 KB` | <sup>*18x* </sup>`50 ms` |
+| 11. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`25.88 KB` | <sup>-54% </sup>`8.99 KB` | <sup>*5x* </sup>`15 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-68% </sup>`22.81 KB` | <sup>-58% </sup>`8.22 KB` | <sup>*1139x* </sup>`3,169 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-44% </sup>`40.04 KB` | <sup>-44% </sup>`10.86 KB` | <sup>*4x* </sup>`12 ms` |
 | 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-44% </sup>`40.66 KB` | <sup>-43% </sup>`11.07 KB` | <sup>*3x* </sup>`9 ms` |
@@ -135,12 +135,12 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [uglify-js (no compress)](packages/minifiers/minifiers/uglify-js.ts) | <sup>-64% </sup>`62.50 KB` | <sup>-46% </sup>`19.57 KB` | <sup>*24x* </sup>`177 ms` |
 | 8. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-64% </sup>`61.76 KB` | <sup>-45% </sup>`19.85 KB` | <sup>*2x* </sup>`17 ms` |
 | 9. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-64% </sup>`63.01 KB` | <sup>-46% </sup>`19.65 KB` | <sup>*28x* </sup>`208 ms` |
-| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`63.72 KB` | <sup>-43% </sup>`20.73 KB` | <sup>*13x* </sup>`100 ms` |
-| 11. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`64.61 KB` | <sup>-42% </sup>`20.84 KB` | <sup>*5x* </sup>`37 ms` |
+| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`63.72 KB` | <sup>-43% </sup>`20.73 KB` | <sup>*12x* </sup>`91 ms` |
+| 11. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`64.61 KB` | <sup>-42% </sup>`20.84 KB` | <sup>*4x* </sup>`34 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-66% </sup>`58.28 KB` | <sup>-48% </sup>`18.90 KB` | <sup>*545x* </sup>`3,994 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-45% </sup>`95.93 KB` | <sup>-32% </sup>`24.74 KB` | <sup>*1x* </sup>`12 ms` |
 | 14. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-44% </sup>`97.63 KB` | <sup>-31% </sup>`25.00 KB` | <sup>*39x* </sup>`285 ms` |
-| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-44% </sup>`97.95 KB` | <sup>-30% </sup>`25.53 KB` | <sup>*1x* </sup>`14 ms` |
+| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-44% </sup>`97.95 KB` | <sup>-30% </sup>`25.53 KB` | <sup>*1x* </sup>`13 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: Failed to find JSON start:<br>[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`">❌ Failed to find </sub> | ❌ | ❌&nbsp; | - |
 </div>
 
@@ -166,12 +166,12 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [esbuild](packages/minifiers/minifiers/esbuild.ts) | <sup>-69% </sup>`90.07 KB` | <sup>-62% </sup>`31.96 KB` | <sup>*3x* </sup>`37 ms` |
 | 8. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-68% </sup>`92.39 KB` | <sup>-61% </sup>`32.64 KB` | <sup>*2x* </sup>`23 ms` |
 | 9. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-69% </sup>`88.45 KB`__ | <sup>-63% </sup>`30.90 KB` | <sup>*114x* </sup>`1,336 ms` |
-| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`98.25 KB` | <sup>-60% </sup>`33.77 KB` | <sup>*4x* </sup>`50 ms` |
-| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`96.71 KB` | <sup>-60% </sup>`33.54 KB` | <sup>*21x* </sup>`256 ms` |
+| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`98.25 KB` | <sup>-60% </sup>`33.77 KB` | <sup>*4x* </sup>`47 ms` |
+| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`96.71 KB` | <sup>-60% </sup>`33.54 KB` | <sup>*21x* </sup>`253 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-68% </sup>`92.71 KB` | <sup>-61% </sup>`33.05 KB` | <sup>*345x* </sup>`4,028 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-51% </sup>`141.45 KB` | <sup>-52% </sup>`40.37 KB` | <sup>*1x* </sup>`14 ms` |
 | 14. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-50% </sup>`144.14 KB` | <sup>-52% </sup>`40.88 KB` | <sup>*30x* </sup>`361 ms` |
-| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-50% </sup>`144.25 KB` | <sup>-51% </sup>`41.48 KB` | <sup>*1x* </sup>`16 ms` |
+| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-50% </sup>`144.25 KB` | <sup>-51% </sup>`41.48 KB` | <sup>*1x* </sup>`15 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: Failed to find JSON start:<br>[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`">❌ Failed to find </sub> | ❌ | ❌&nbsp; | - |
 </div>
 
@@ -197,12 +197,12 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-63% </sup>`126.39 KB` | <sup>-50% </sup>`44.64 KB` | <sup>*24x* </sup>`356 ms` |
 | 8. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-65% </sup>`121.28 KB` | <sup>-49% </sup>`45.39 KB` | <sup>*1x* </sup>`24 ms` |
 | 9. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-67% </sup>`113.80 KB`__ | <sup>-52% </sup>`43.04 KB` | <sup>*125x* </sup>`1,857 ms` |
-| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-62% </sup>`130.86 KB` | <sup>-48% </sup>`46.96 KB` | <sup>*4x* </sup>`69 ms` |
-| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`126.73 KB` | <sup>-48% </sup>`46.57 KB` | <sup>*22x* </sup>`336 ms` |
+| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-62% </sup>`130.86 KB` | <sup>-48% </sup>`46.96 KB` | <sup>*4x* </sup>`67 ms` |
+| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`126.73 KB` | <sup>-48% </sup>`46.57 KB` | <sup>*22x* </sup>`329 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-66% </sup>`115.55 KB` | <sup>-51% </sup>`44.24 KB` | <sup>*324x* </sup>`4,789 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-43% </sup>`193.91 KB` | <sup>-37% </sup>`56.36 KB` | <sup>*1x* </sup>`15 ms` |
 | 14. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-42% </sup>`197.36 KB` | <sup>-36% </sup>`57.17 KB` | <sup>*32x* </sup>`481 ms` |
-| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-42% </sup>`198.37 KB` | <sup>-35% </sup>`58.20 KB` | <sup>*1x* </sup>`19 ms` |
+| 15. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-42% </sup>`198.37 KB` | <sup>-35% </sup>`58.20 KB` | <sup>*1x* </sup>`17 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: Failed to find JSON start:<br>[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`">❌ Failed to find </sub> | ❌ | ❌&nbsp; | - |
 </div>
 
@@ -228,11 +228,11 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-87% </sup>`73.45 KB` | <sup>-72% </sup>`26.66 KB` | <sup>*1x* </sup>`22 ms` |
 | 8. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-86% </sup>`75.04 KB` | <sup>-73% </sup>`26.19 KB` | <sup>*27x* </sup>`314 ms` |
 | 9. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-87% </sup>`68.17 KB`__ | __<sup>🏆-74% </sup>`24.69 KB`__ | <sup>*120x* </sup>`1,394 ms` |
-| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-86% </sup>`78.03 KB` | <sup>-71% </sup>`27.63 KB` | <sup>*6x* </sup>`70 ms` |
-| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-86% </sup>`76.29 KB` | <sup>-72% </sup>`27.43 KB` | <sup>*23x* </sup>`278 ms` |
+| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-86% </sup>`78.03 KB` | <sup>-71% </sup>`27.63 KB` | <sup>*5x* </sup>`65 ms` |
+| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-86% </sup>`76.29 KB` | <sup>-72% </sup>`27.43 KB` | <sup>*23x* </sup>`268 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-86% </sup>`73.49 KB` | <sup>-74% </sup>`25.03 KB` | <sup>*368x* </sup>`4,283 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-73% </sup>`146.27 KB` | <sup>-63% </sup>`35.94 KB` | <sup>*1x* </sup>`13 ms` |
-| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-73% </sup>`148.44 KB` | <sup>-62% </sup>`36.69 KB` | <sup>*2x* </sup>`25 ms` |
+| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-73% </sup>`148.44 KB` | <sup>-62% </sup>`36.69 KB` | <sup>*1x* </sup>`21 ms` |
 | 15. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-73% </sup>`148.78 KB` | <sup>-62% </sup>`36.33 KB` | <sup>*32x* </sup>`374 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: Failed to find JSON start:<br>[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`">❌ Failed to find </sub> | ❌ | ❌&nbsp; | - |
 </div>
@@ -261,7 +261,7 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 9. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-53% </sup>`263.56 KB`__ | __<sup>🏆-33% </sup>`87.02 KB`__ | <sup>*139x* </sup>`3,272 ms` |
 | 10. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-29% </sup>`393.70 KB` | <sup>-21% </sup>`103.81 KB` | __<sup>🏆 </sup>`23 ms`__ |
 | 11. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-51% </sup>`270.32 KB` | <sup>-28% </sup>`94.15 KB` | <sup>*266x* </sup>`6,241 ms` |
-| 12. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-28% </sup>`400.43 KB` | <sup>-19% </sup>`105.88 KB` | <sup>*1x* </sup>`31 ms` |
+| 12. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-28% </sup>`400.43 KB` | <sup>-19% </sup>`105.88 KB` | <sup>*1x* </sup>`28 ms` |
 | 13. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: minification">❌ Minification</sub> | ❌ | ❌&nbsp; | - |
 | 14. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) <sub title="Failed: post-validation">❌ Post-validation</sub> | ❌ | ❌&nbsp; | - |
 | 15. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) <sub title="Failed: post-validation">❌ Post-validation</sub> | ❌ | ❌&nbsp; | - |
@@ -290,11 +290,11 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [terser](packages/minifiers/minifiers/terser.ts) | <sup>-55% </sup>`456.59 KB` | <sup>-36% </sup>`123.35 KB` | <sup>*85x* </sup>`1,771 ms` |
 | 8. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-54% </sup>`466.69 KB` | <sup>-34% </sup>`127.64 KB` | <sup>*2x* </sup>`43 ms` |
 | 9. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | <sup>-55% </sup>`451.19 KB` | <sup>-36% </sup>`123.33 KB` | <sup>*152x* </sup>`3,153 ms` |
-| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-49% </sup>`510.34 KB` | <sup>-32% </sup>`131.24 KB` | <sup>*7x* </sup>`153 ms` |
-| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-50% </sup>`505.92 KB` | <sup>-33% </sup>`130.70 KB` | <sup>*40x* </sup>`836 ms` |
+| 10. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-49% </sup>`510.34 KB` | <sup>-32% </sup>`131.24 KB` | <sup>*7x* </sup>`146 ms` |
+| 11. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-50% </sup>`505.92 KB` | <sup>-33% </sup>`130.70 KB` | <sup>*40x* </sup>`834 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-56% </sup>`439.93 KB` | <sup>-35% </sup>`126.44 KB` | <sup>*292x* </sup>`6,042 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-38% </sup>`625.93 KB` | <sup>-26% </sup>`144.30 KB` | __<sup>🏆 </sup>`21 ms`__ |
-| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-37% </sup>`640.81 KB` | <sup>-24% </sup>`146.94 KB` | <sup>*2x* </sup>`47 ms` |
+| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-37% </sup>`640.81 KB` | <sup>-24% </sup>`146.94 KB` | <sup>*2x* </sup>`43 ms` |
 | 15. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-37% </sup>`633.71 KB` | <sup>-25% </sup>`145.18 KB` | <sup>*64x* </sup>`1,328 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: minification">❌ Minification</sub> | ❌ | ❌&nbsp; | - |
 </div>
@@ -320,12 +320,12 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 6. [terser](packages/minifiers/minifiers/terser.ts) | <sup>-48% </sup>`653.18 KB` | <sup>-36% </sup>`159.17 KB` | <sup>*105x* </sup>`2,414 ms` |
 | 7. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-46% </sup>`675.43 KB` | <sup>-34% </sup>`163.18 KB` | <sup>*46x* </sup>`1,075 ms` |
 | 8. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-47% </sup>`655.59 KB` | <sup>-33% </sup>`166.17 KB` | <sup>*2x* </sup>`63 ms` |
-| 9. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-45% </sup>`685.32 KB` | <sup>-32% </sup>`168.05 KB` | <sup>*9x* </sup>`228 ms` |
-| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-46% </sup>`671.94 KB` | <sup>-33% </sup>`166.95 KB` | <sup>*52x* </sup>`1,206 ms` |
+| 9. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-45% </sup>`685.32 KB` | <sup>-32% </sup>`168.05 KB` | <sup>*9x* </sup>`226 ms` |
+| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-46% </sup>`671.94 KB` | <sup>-33% </sup>`166.95 KB` | <sup>*51x* </sup>`1,190 ms` |
 | 11. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-49% </sup>`641.59 KB`__ | <sup>-36% </sup>`159.07 KB` | <sup>*188x* </sup>`4,320 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) | <sup>-48% </sup>`644.51 KB` | <sup>-34% </sup>`162.81 KB` | <sup>*338x* </sup>`7,766 ms` |
 | 13. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-25% </sup>`941.06 KB` | <sup>-23% </sup>`191.97 KB` | __<sup>🏆 </sup>`23 ms`__ |
-| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-24% </sup>`948.69 KB` | <sup>-22% </sup>`194.05 KB` | <sup>*2x* </sup>`55 ms` |
+| 14. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-24% </sup>`948.69 KB` | <sup>-22% </sup>`194.05 KB` | <sup>*2x* </sup>`51 ms` |
 | 15. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) | <sup>-24% </sup>`952.01 KB` | <sup>-22% </sup>`193.47 KB` | <sup>*74x* </sup>`1,712 ms` |
 | 16. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 </div>
@@ -348,14 +348,14 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 3. [@tdewolff/minify](packages/minifiers/minifiers/tdewolff-minify.ts) | <sup>-66% </sup>`716.62 KB` | <sup>-47% </sup>`164.95 KB` | <sup>*1x* </sup>`69 ms` |
 | 4. [uglify-js (no compress)](packages/minifiers/minifiers/uglify-js.ts) | <sup>-65% </sup>`756.53 KB` | <sup>-46% </sup>`167.58 KB` | <sup>*25x* </sup>`1,105 ms` |
 | 5. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-65% </sup>`756.62 KB` | <sup>-46% </sup>`166.18 KB` | <sup>*31x* </sup>`1,374 ms` |
-| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`782.44 KB` | <sup>-43% </sup>`177.02 KB` | <sup>*6x* </sup>`287 ms` |
+| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`782.44 KB` | <sup>-43% </sup>`177.02 KB` | <sup>*6x* </sup>`274 ms` |
 | 7. [esbuild](packages/minifiers/minifiers/esbuild.ts) | <sup>-66% </sup>`725.65 KB` | <sup>-42% </sup>`181.23 KB` | <sup>*3x* </sup>`135 ms` |
 | 8. [terser](packages/minifiers/minifiers/terser.ts) | <sup>-67% </sup>`712.87 KB` | <sup>-49% </sup>`158.46 KB` | <sup>*77x* </sup>`3,359 ms` |
 | 9. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-66% </sup>`726.80 KB` | <sup>-41% </sup>`182.61 KB` | <sup>*1x* </sup>`85 ms` |
-| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`763.80 KB` | <sup>-43% </sup>`175.51 KB` | <sup>*34x* </sup>`1,517 ms` |
+| 10. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`763.80 KB` | <sup>-43% </sup>`175.51 KB` | <sup>*35x* </sup>`1,547 ms` |
 | 11. [uglify-js](packages/minifiers/minifiers/uglify-js.ts) | __<sup>🏆-67% </sup>`694.78 KB`__ | __<sup>🏆-49% </sup>`157.44 KB`__ | <sup>*131x* </sup>`5,712 ms` |
 | 12. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-33% </sup>`1.43 MB` | <sup>-29% </sup>`221.12 KB` | __<sup>🏆 </sup>`44 ms`__ |
-| 13. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-32% </sup>`1.45 MB` | <sup>-28% </sup>`224.43 KB` | <sup>*2x* </sup>`88 ms` |
+| 13. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-32% </sup>`1.45 MB` | <sup>-28% </sup>`224.43 KB` | <sup>*1x* </sup>`81 ms` |
 | 14. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: minification">❌ Minification</sub> | ❌ | ❌&nbsp; | - |
 | 15. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 16. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) <sub title="Failed: post-validation">❌ Post-validation</sub> | ❌ | ❌&nbsp; | - |
@@ -383,7 +383,7 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 7. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-67% </sup>`1.07 MB` | <sup>-52% </sup>`330.35 KB` | <sup>*50x* </sup>`2,496 ms` |
 | 8. [terser](packages/minifiers/minifiers/terser.ts) | <sup>-69% </sup>`998.45 KB` | <sup>-53% </sup>`321.56 KB` | <sup>*111x* </sup>`5,534 ms` |
 | 9. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-45% </sup>`1.77 MB` | <sup>-37% </sup>`434.45 KB` | __<sup>🏆 </sup>`50 ms`__ |
-| 10. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-44% </sup>`1.79 MB` | <sup>-36% </sup>`440.72 KB` | <sup>*2x* </sup>`134 ms` |
+| 10. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-44% </sup>`1.79 MB` | <sup>-36% </sup>`440.72 KB` | <sup>*2x* </sup>`128 ms` |
 | 11. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 12. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 13. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) <sub title="Failed: post-validation">❌ Post-validation</sub> | ❌ | ❌&nbsp; | - |
@@ -410,13 +410,13 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 3. [@tdewolff/minify](packages/minifiers/minifiers/tdewolff-minify.ts) | <sup>-66% </sup>`2.29 MB` | <sup>-43% </sup>`471.64 KB` | <sup>*1x* </sup>`140 ms` |
 | 4. [esbuild](packages/minifiers/minifiers/esbuild.ts) | <sup>-65% </sup>`2.31 MB` | <sup>-41% </sup>`488.41 KB` | <sup>*3x* </sup>`286 ms` |
 | 5. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-66% </sup>`2.30 MB` | <sup>-40% </sup>`491.71 KB` | <sup>*2x* </sup>`179 ms` |
-| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`2.49 MB` | <sup>-40% </sup>`497.98 KB` | <sup>*9x* </sup>`671 ms` |
+| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-63% </sup>`2.49 MB` | <sup>-40% </sup>`497.98 KB` | <sup>*9x* </sup>`655 ms` |
 | 7. [uglify-js (no compress)](packages/minifiers/minifiers/uglify-js.ts) | <sup>-64% </sup>`2.42 MB` | <sup>-42% </sup>`478.57 KB` | <sup>*32x* </sup>`2,313 ms` |
 | 8. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-64% </sup>`2.42 MB` | <sup>-42% </sup>`474.97 KB` | <sup>*39x* </sup>`2,835 ms` |
-| 9. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`2.43 MB` | <sup>-40% </sup>`494.64 KB` | <sup>*52x* </sup>`3,822 ms` |
+| 9. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-64% </sup>`2.43 MB` | <sup>-40% </sup>`494.64 KB` | <sup>*52x* </sup>`3,815 ms` |
 | 10. [terser](packages/minifiers/minifiers/terser.ts) | <sup>-66% </sup>`2.24 MB` | <sup>-45% </sup>`457.35 KB` | <sup>*85x* </sup>`6,153 ms` |
 | 11. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-34% </sup>`4.43 MB` | <sup>-24% </sup>`623.37 KB` | __<sup>🏆 </sup>`72 ms`__ |
-| 12. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-33% </sup>`4.46 MB` | <sup>-24% </sup>`629.98 KB` | <sup>*3x* </sup>`231 ms` |
+| 12. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-33% </sup>`4.46 MB` | <sup>-24% </sup>`629.98 KB` | <sup>*2x* </sup>`216 ms` |
 | 13. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 14. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 15. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
@@ -441,12 +441,12 @@ How long minification took (average of 5 runs). Each time is annotated with a mu
 | 3. [@swc/core](packages/minifiers/minifiers/swc.ts) | __<sup>🏆-70% </sup>`3.31 MB`__ | <sup>-54% </sup>`859.06 KB` | <sup>*14x* </sup>`1,544 ms` |
 | 4. [esbuild](packages/minifiers/minifiers/esbuild.ts) | <sup>-68% </sup>`3.49 MB` | <sup>-51% </sup>`915.54 KB` | <sup>*4x* </sup>`475 ms` |
 | 5. [bun](packages/minifiers/minifiers/bun.ts) | <sup>-68% </sup>`3.54 MB` | <sup>-51% </sup>`923.27 KB` | <sup>*2x* </sup>`317 ms` |
-| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`3.70 MB` | <sup>-51% </sup>`918.10 KB` | <sup>*11x* </sup>`1,283 ms` |
+| 6. [Minify++ (structured)](packages/minifiers/minifiers/minifypp.ts) | <sup>-66% </sup>`3.70 MB` | <sup>-51% </sup>`918.10 KB` | <sup>*12x* </sup>`1,313 ms` |
 | 7. [uglify-js (no compress)](packages/minifiers/minifiers/uglify-js.ts) | <sup>-68% </sup>`3.54 MB` | <sup>-53% </sup>`876.54 KB` | <sup>*33x* </sup>`3,631 ms` |
 | 8. [terser (no compress)](packages/minifiers/minifiers/terser.ts) | <sup>-68% </sup>`3.53 MB` | <sup>-53% </sup>`878.64 KB` | <sup>*44x* </sup>`4,773 ms` |
-| 9. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-67% </sup>`3.62 MB` | <sup>-52% </sup>`910.87 KB` | <sup>*74x* </sup>`8,071 ms` |
+| 9. [Minify++ (aggressive)](packages/minifiers/minifiers/minifypp.ts) | <sup>-67% </sup>`3.62 MB` | <sup>-52% </sup>`910.87 KB` | <sup>*78x* </sup>`8,515 ms` |
 | 10. [@cminify/cminify-linux-x64](packages/minifiers/minifiers/cminify.ts) | <sup>-47% </sup>`5.85 MB` | <sup>-40% </sup>`1.13 MB` | __<sup>🏆 </sup>`108 ms`__ |
-| 11. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-46% </sup>`5.91 MB` | <sup>-39% </sup>`1.14 MB` | <sup>*3x* </sup>`362 ms` |
+| 11. [Minify++](packages/minifiers/minifiers/minifypp.ts) | <sup>-46% </sup>`5.91 MB` | <sup>-39% </sup>`1.14 MB` | <sup>*3x* </sup>`350 ms` |
 | 12. [babel-minify](packages/minifiers/minifiers/babel-minify.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 13. [google-closure-compiler](packages/minifiers/minifiers/google-closure-compiler.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
 | 14. [tedivm/jshrink](packages/minifiers/minifiers/jshrink/index.ts) <sub title="Failed: timeout">❌ Timed out</sub> | - | - | <sup>:warning:</sup> `+10,000 ms` |
